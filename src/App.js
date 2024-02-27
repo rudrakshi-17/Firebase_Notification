@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { messaging } from "./firebase";
 import { getToken } from "firebase/messaging";
 function App() {
+	//normal implementation
 	async function requestPermission() {
 		const permission = await Notification.requestPermission();
 		if (permission === "granted") {
