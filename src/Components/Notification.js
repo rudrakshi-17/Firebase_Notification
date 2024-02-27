@@ -1,3 +1,5 @@
+//reusable function
+
 import { messaging } from "./firebase";
 import { getToken } from "firebase/messaging";
 
